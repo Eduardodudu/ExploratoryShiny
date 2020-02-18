@@ -1,0 +1,23 @@
+---
+title: "SummaryTools"
+params:
+  n: NA
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE, warning= F, echo=F}
+options(digits=2)
+library(knitr)
+library(png)
+library(summarytools)
+```
+
+
+
+```{r, echo=F, results='asis'}
+dfSummary(params$n, plain.ascii = FALSE, style = "grid")
+```
+
