@@ -4,12 +4,12 @@
   require(foreign)
   require(summarytools)
   require(DT)
-  library(readr)
+  require(readr)
   
   # Best file input, Credits to SachaEpskamp: https://gist.github.com/SachaEpskamp/5796467
   
   #Set wd as folder of script -> Don't use on shinyapps.io
-  # setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+  #setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
   
   if(Sys.getenv('SHINY_PORT') == "") options(shiny.maxRequestSize=10000*1024^2)
   

@@ -1,0 +1,13 @@
+name: ShinyDfSummary
+title: ShinyDfSummary
+username:
+account: eduardodudu
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 933772
+bundleId: 2810493
+url: https://eduardodudu.shinyapps.io/ShinyDfSummary/
+when: 1582069806.0752
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: 04. Exploratory Shiny_Function.R|Data.pdf|img/ds0001.png|img/ds0002.png

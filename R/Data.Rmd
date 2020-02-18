@@ -17,7 +17,7 @@ library(summarytools)
 
 
 
-```{r, echo=F, results='asis'}
-dfSummary(params$n, plain.ascii = FALSE, style = "grid")
+```{r, echo=F, warning= F, results='asis'}
+dfSummary(params$n, plain.ascii = FALSE, style = "grid", tmp.img.dir = "./img")
 ```
 
