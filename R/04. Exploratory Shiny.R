@@ -5,11 +5,12 @@
   require(summarytools)
   require(DT)
   require(readr)
+  require(readxl)
   
   # Best file input, Credits to SachaEpskamp: https://gist.github.com/SachaEpskamp/5796467
   
   #Set wd as folder of script -> Don't use on shinyapps.io
-  #setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+  setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
   
   if(Sys.getenv('SHINY_PORT') == "") options(shiny.maxRequestSize=10000*1024^2)
   
@@ -39,7 +40,11 @@
 
         #readr
         "read_csv",
-        "read_delim"
+        "read_delim",
+        
+        #readxl
+        "read_excel"
+        
 
       )),
       
