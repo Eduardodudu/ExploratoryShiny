@@ -26,6 +26,4 @@ Repo:
 RStudio Cloud:
 <a href="https://rstudio.cloud/project/959448" class="uri">https://rstudio.cloud/project/959448</a>
 
-Full Example:
-
-<img src="./Images/dfSummary.png" width="3779" style="display: block; margin: auto;" />
+Full Example: \[\]{Images/dfSummary.png}

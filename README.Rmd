@@ -1,0 +1,39 @@
+---
+title: "Exploratory Shiny"
+output:
+  md_document:
+    variant: markdown_github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(png)
+library(knitr)
+```
+
+## Exploratory dfSummary
+
+This project aims to use summarytools on shiny and allowing a reactive model with datatable filters. It's also possible to download a pdf of summarytools view function.
+
+The idea is quite simple, upload the data and explore it by filtering data and checking the result on the summary tab.
+
+I find this helpful to have a quick look at the data and its attributes.
+
+**All credits on file input sidebar goes to SachaEpskamp: https://gist.github.com/SachaEpskamp/5796467 who delivered the best solution for a vast majority of r packages on input files**
+
+There is also a function to use it locally, this might be useful for large datasets.
+
+Category: Shiny extensions
+Keywords: Summarytools, DT, reactive
+Shiny app: https://eduardodudu.shinyapps.io/ShinyDfSummary/
+Repo: https://github.com/Eduardodudu/ExploratoryShiny
+RStudio Cloud: https://rstudio.cloud/project/959448
+
+Full Example:
+
+```{r, warning=F, include=T, echo=F, fig.align='center'}
+img1_path <- "./Images/dfSummary.png"
+img1 <- readPNG(img1_path, native = TRUE, info = TRUE)
+include_graphics(img1_path, dpi = 50)
+```
+  
