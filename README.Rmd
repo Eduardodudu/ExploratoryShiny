@@ -24,10 +24,11 @@ I find this helpful to have a quick look at the data and its attributes.
 There is also a function to use it locally, this might be useful for large datasets.
 
 Category: Shiny extensions
-Keywords: Summarytools, DT, reactive
-Shiny app: https://eduardodudu.shinyapps.io/ShinyDfSummary/
-Repo: https://github.com/Eduardodudu/ExploratoryShiny
-RStudio Cloud: https://rstudio.cloud/project/959448
+
+- Keywords: Summarytools, DT, reactive
+- Shiny app: https://eduardodudu.shinyapps.io/ShinyDfSummary/
+- Repo: https://github.com/Eduardodudu/ExploratoryShiny
+- RStudio Cloud: https://rstudio.cloud/project/959448
 
 Full Example:
 
